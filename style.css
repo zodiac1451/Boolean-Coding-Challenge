@@ -1,0 +1,74 @@
+/* Immagine di background della pagina */
+body{
+    background-image: url(imgs/background.jpg);
+    background-size: cover;
+}
+
+/* Stile, dimensione e posizione del box che racchiude il contenuto della pagina */
+.container{
+    width: 53%;
+    margin: auto;
+    margin-top: 2%;
+    background-color: rgba(0, 0, 0, 0.500);
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.900);
+    font-family: 'Poppins';
+    padding: 5%;
+}
+
+/* Dimensione e posizione del logo */
+.logo{ 
+    display: block;
+    width: 24%;
+    margin: auto;
+}
+
+/* Stile, dimensione e posizione del titolo*/
+.motto{
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    color: #00DD00;
+}
+
+/* Posizione e contorno pulsanti */
+.option-box{
+    background-color: #00DD00;
+    text-align: center;
+    padding: 1%;
+}
+
+/* Dimensione e posizione testo delle tre sezioni */
+.section{
+    margin-top: 2%;
+    font-size: 75%;
+}
+
+/* Stile del testo che affianca le checkbox */
+.scooter{
+    font-size: large;
+    font-weight: bold;
+}
+
+/* Dimensioni delle progress bar */
+.bar{
+    color: #ffffff00;
+    padding: 0.2%;
+    border-radius: 5px;
+}
+
+/* Colori e lunghezze delle progress bar */
+.orange{
+    background-color: #F5B453;
+    width: 35%;
+}
+
+.green{
+    background-color: #1EC31E;
+    width: 60%;
+}
+
+.red{
+    background-color: #BE4141;
+    width: 15%;
+}
